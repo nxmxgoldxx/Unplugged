@@ -40,11 +40,12 @@ main {
  h1 {
 
    font-size: 1.85em;
+     margin: 0.67em 0;
 /* display: flex;
    justify-content: center;
    align-items: center;
    margin: 30% 0% 0% 0%;
-  /*flex-flow: row wrap;*/
+  /*flex-flow: row wrap;
 
   }
 

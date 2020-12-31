@@ -85,8 +85,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 96%;
-  height: 90%
+
 
 }
 
@@ -166,39 +165,10 @@ footer .copyright {
 }
 
 
-/* h1, h2, h3, h4, {
-  font-size: 2em;
-  margin: 0.67em 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-} */
-
-
-.mission-statement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
- .social-icons p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-}
-
 /* ----- Mobile - Homepage ---- */
+
 /* Hero */
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -207,6 +177,7 @@ footer .copyright {
 }
 
 /* Aside */
+
 aside {
   display: flex;
   justify-content: center;
@@ -216,6 +187,7 @@ aside {
 }
 
 /* Features */
+
 .features {
   display: flex;
   justify-content: center;
@@ -227,7 +199,7 @@ aside {
 }
 
 .features article {
-  width: 60%;
+  width: 63%;
   margin: 30px 0;
 }
 
@@ -250,9 +222,14 @@ aside {
   flex-flow: row wrap;
 }
 
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
 .reviews h3 {
-  width: 55%;
   margin: 20px 0;
+  width: 55%;
 }
 
 
@@ -278,7 +255,6 @@ aside {
 
 
 .contact-content p {
-
   margin: 0;
 }
 
