@@ -371,17 +371,305 @@ aside {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-wdith: 768px) {
+
+/* TABLET Styles Here */
+
+/* [ hompage css ] */
+
+.content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
 }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/* Header */
+
+header {
+  display: flex;
+
 }
 
+header .content-wrapper {
+    width: ;
+    display: flex;
+}
+
+header nav {
+    width:
+}
+
+header nav ul {
+  display: flex;
+
+}
+
+.header-divider {
+    display: none;
+}
+
+/* Hero Area */
+
+/* Aside */
+aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+    width:        ;
+    margin: 0;
+}
+
+/* Features */
+
+.features article {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  flex-basis: auto;
+
+
+}
+
+faq-content{
+flex-basis: auto;
+}
+
+
+.features .features-item-description {
+    width:
+}
+
+/* Reviews */
+.reviews article {
+  display: flex;
+  justify-content: center;
+
+}
+
+.reviews article div {
+    width:
+}
+
+/* Footer */
+footer .content-wrapper {
+    width:
+    margin: 100px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+}
+
+footer .contact {
+    margin-bottom: 0;
+}
+
+footer .copyright {
+    width:
+}
+
+
+==========
+/* ABOUT TABLET */
+==========
+
+
+
+.mission-content {
+     display: ;
+     justify-content: space-between;
+     align-items: ;
+ }
+
+ .mission-content p {
+     width: ;
+ }
+
+ .contact-section .content-wrapper h2 {
+     width: ;
+ }
+
+ .contact-content {
+     display:
+     justify-content: ;
+     align-items: ;
+}
+
+
+============
+/* FAQ TABLET */
+============
+
+.faq .content-wrapper {
+        justify-content: space-between;
+    }
+
+    .faq-content {
+        flex-basis: 40%;
+    }
+
+    .faq h2 {
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+  /* Desktop Styles Here */
+
+  /* [ hompage css ] */
+
+  .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+  }
+
+  /* Header */
+
+  header {
+    display: flex;
+
+  }
+
+  header .content-wrapper {
+      width: ;
+      display: flex;
+  }
+
+  header nav {
+      width:
+  }
+
+  header nav ul {
+    display: flex;
+
+  }
+
+  .header-divider {
+      display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+      margin: 50px 0;
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+      width:        ;
+      margin: 0;
+  }
+
+  /* Features */
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    flex-basis: auto;
+
+
+  }
+
+  faq-content{
+  flex-basis: auto;
+  }
+
+
+  .features .features-item-description {
+      width:
+  }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .reviews article div {
+      width:
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+      width:
+      margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+  }
+
+  footer .contact {
+      margin-bottom: 0;
+  }
+
+  footer .copyright {
+      width:
+  }
+
+
+  ==========
+  /* ABOUT Desktop */
+  ==========
+
+
+
+  .mission-content {
+       display: ;
+       justify-content: space-between;
+       align-items: ;
+   }
+
+   .mission-content p {
+       width: ;
+   }
+
+   .contact-section .content-wrapper h2 {
+       width: ;
+   }
+
+   .contact-content {
+       display:
+       justify-content: ;
+       align-items: ;
+  }
+
+
+  ============
+/* FAQ Desktop */
+  ============
+
+  .faq .content-wrapper {
+          justify-content: space-between;
+      }
+
+      .faq-content {
+          flex-basis: 40%;
+      }
+
+      .faq h2 {
+          width: 100%;
+      }
+
+
+
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
