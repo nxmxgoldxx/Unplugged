@@ -40,7 +40,7 @@ main {
  h1 {
 
    font-size: 1.85em;
-   display: flex;
+/* display: flex;
    justify-content: center;
    align-items: center;
    margin: 30% 0% 0% 0%;
@@ -103,7 +103,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
+} */
 
 /* Grouping content
    ========================================================================== */
