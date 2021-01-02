@@ -102,6 +102,7 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -109,6 +110,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
@@ -120,11 +122,19 @@ address {
   font-style: normal;
 }
 
-/* img {}
+img {
+width: 100%;
+}
 
-figure {}
+figure {
+margin: 0;
+}
 
-address {} */
+address {
+font-style: normal;
+}
+
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -141,10 +151,15 @@ footer {
 
 header {
   padding: 15px 0;
-  background: url('img/unsplash-hero.jpg') center no-repeat #333;
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
+
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header.content-wrapper {
@@ -163,14 +178,14 @@ header.content-wrapper {
 }
 
 header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -220,6 +235,10 @@ footer .copyright {
 /* ----- Mobile - Homepage ---- */
 /* Hero */
 .hero-area {
+  background: url(../img/unsplash-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -270,6 +289,9 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
