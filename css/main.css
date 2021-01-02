@@ -78,38 +78,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  html {
+html {
   font-size: 16px;
-   }
+}
 
-  body {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
-  }
+}
 
-  ul,
-  ol {
-    list-style-type: none;
-  }
+ul,
+ol {
+  list-style-type: none;
+}
 
-  a {
-    color: #e2e3ed;
-    text-decoration: none;
-  }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.875em;
-  }
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
 
-  h3,
-  h4 {
-       font-family: 'Poppins', sans-serif;
-       margin: 20px 0;
-       font-size: 1.125em;
-  }
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
 
 p {
   font-size: .875em;
@@ -125,7 +125,6 @@ address {
 figure {}
 
 address {} */
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -142,6 +141,10 @@ footer {
 
 header {
   padding: 15px 0;
+  background: url('img/unsplash-hero.jpg') center no-repeat #333;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header.content-wrapper {
@@ -230,7 +233,6 @@ footer .copyright {
 }
 
 /* Aside */
-
 aside {
   display: flex;
   justify-content: center;
@@ -239,9 +241,7 @@ aside {
   background: #527158;
 }
 
-
 /* Aside Form */
-
 aside .form {
   margin-top: 30px;
 }
@@ -294,7 +294,6 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
-
 }
 
 /* Reviews */
@@ -366,6 +365,8 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
 }
+
+gi
 
 /* ==========================================================================
    Helper classes
