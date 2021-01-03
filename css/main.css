@@ -315,8 +315,14 @@ input[type=button] {
   margin: 0;
   text-align: center;
 }
+	
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 
 /* Reviews */
+
 .reviews {
   background-color: #2a423a;
   display: flex;
@@ -332,7 +338,6 @@ input[type=button] {
 .reviews h3 {
   margin: 20px 0;
   width: 55%;
-}
 }
 
 /* About */
